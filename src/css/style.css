@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Mono|Signika&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@font-face {
+  font-family: 'Product Sans Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Product Sans Regular"), url("../assets/fonts/ProductSans/ProductSans-Regular.woff") format("woff");
+}
+
+body{
+  overflow:hidden;
+  background: #000424;
+}
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+}
+.content {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100vh;
+  scroll-behavior: smooth;
+  width: 100%;
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 70rem;
+  -ms-grid-column-align: center;
+      
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin:  0;
+}
+
+.home h4{
+  font-family: 'Fira Mono';
+  color:#6689a7 ;
+  font-size: 1.2rem;
+  margin-bottom: 1.3rem;
+  -webkit-animation: appear 0.5s ease-out 0s 1 normal forwards;
+          animation: appear 0.5s ease-out 0s 1 normal forwards;
+  margin-left: 4px;
+}
+.home h2 {
+  font-family: 'Product Sans Regular', 'Open Sans', sans-serif;
+  color: #6689a7;
+  -webkit-animation: appear 0.5s ease-out 0.5s 1 normal forwards;
+          animation: appear 0.5s ease-out 0.5s 1 normal forwards;
+  margin-top: 0.5rem;
+}
+.home p {
+  margin-top: 3rem;
+  color: #d1ced5;
+  font-family: 'Fira Mono';
+  font-size: 1.3rem;
+  -webkit-animation: appear 0.5s ease-out 0.75s 1 normal forwards;
+          animation: appear 0.5s ease-out 0.75s 1 normal forwards;
+  padding-right: 15rem;
+}
+
